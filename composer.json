@@ -1,0 +1,27 @@
+{
+    "name": "osmianski/code-index",
+    "description": "Code reflection on steroids.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladislav Osmianskij",
+            "email": "vlaosm@gmail.com",
+            "homepage": "https://osmianski.com/"
+        }
+    ],
+    "homepage": "https://github.com/osmianski/code-index",
+    "keywords": ["code", "reflection"],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Osmianski\\CodeIndex\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Osmianski\\CodeIndex\\Tests\\": "tests"
+        }
+    }
+}

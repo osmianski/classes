@@ -4,8 +4,100 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1370166a434c0876fd805212d6859a4d",
-    "packages": [],
+    "content-hash": "3dac34100ba1bceea1431c30c3434033",
+    "packages": [
+        {
+            "name": "osmianski/lazy-properties",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/osmianski/lazy-properties.git",
+                "reference": "2ea246f1d03b7060207e6937e49f5239b19a9ff4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/osmianski/lazy-properties/zipball/2ea246f1d03b7060207e6937e49f5239b19a9ff4",
+                "reference": "2ea246f1d03b7060207e6937e49f5239b19a9ff4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Osmianski\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vladislav Osmianskij",
+                    "email": "vlaosm@gmail.com",
+                    "homepage": "https://osmianski.com/"
+                }
+            ],
+            "description": "A library that adds lazy properties to your objects.",
+            "homepage": "https://github.com/osmianski/lazy-properties",
+            "keywords": [
+                "lazy",
+                "properties"
+            ],
+            "support": {
+                "issues": "https://github.com/osmianski/lazy-properties/issues",
+                "source": "https://github.com/osmianski/lazy-properties/tree/v0.1.1"
+            },
+            "time": "2023-03-28T19:53:19+00:00"
+        },
+        {
+            "name": "osmianski/not-implemented",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/osmianski/not-implemented.git",
+                "reference": "16d50144577b9392251ee45710e81ba9437df09d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/osmianski/not-implemented/zipball/16d50144577b9392251ee45710e81ba9437df09d",
+                "reference": "16d50144577b9392251ee45710e81ba9437df09d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Osmianski\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vladislav Osmianskij",
+                    "email": "vlaosm@gmail.com",
+                    "homepage": "https://osmianski.com/"
+                }
+            ],
+            "description": "A simple library that helps to never forget unimplemented parts of the application.",
+            "homepage": "https://github.com/osmianski/not-implemented",
+            "keywords": [
+                "NotImplemented"
+            ],
+            "support": {
+                "issues": "https://github.com/osmianski/not-implemented/issues",
+                "source": "https://github.com/osmianski/not-implemented/tree/v0.1.0"
+            },
+            "time": "2023-03-28T19:33:10+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
